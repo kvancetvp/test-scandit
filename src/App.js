@@ -16,7 +16,7 @@ class App extends Component {
 	}
 
 	getScanSettings = () => {
-		return new ScanSettings({ enabledSymbologies: [Barcode.Symbology.CODE128] });
+		return new ScanSettings({ enabledSymbologies: [Barcode.Symbology.CODE128, Barcode.Symbology.UPCA, Barcode.Symbology.UPCE] });
 	  };
 
   render() {

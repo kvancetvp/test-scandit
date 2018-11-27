@@ -22,7 +22,11 @@ class App extends Component {
 				 Barcode.Symbology.UPCA, 
 				 Barcode.Symbology.UPCE, 
 				 Barcode.Symbology.EAN13, 
-				 Barcode.Symbology.EAN8
+				 Barcode.Symbology.EAN8, 
+				 Barcode.Symbology.CODE11, 
+				 Barcode.Symbology.CODE128, 
+				 Barcode.Symbology.CODE25, 
+				 Barcode.Symbology.CODE32				
 				] 
 			});
 	  };
